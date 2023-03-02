@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --but-color:#0fbb0f;
+    --pale-color: #ffffff;
+    --nav-color: #020235;
+    --pur-color: #800080;
+    --down-color: #f53030;
+
+}
+h2 b{
+    font-size: 20px;
+}
+.nav-item .btn{
+    background-color: var(--but-color);
+}
+.sur button{
+background-color: var(--but-color);
+color:var(--pale-color);
+font-size: 10px;
+height: 6vh;
+text-align: center;
+}
+.sur{
+    background-color:var(--nav-color);
+}
+.sur h2 b{
+    color:var(--pale-color);
+    font-size: 30px;
+}
+th{
+    font-size: 10px;
+}
+td button{
+    font-size: 10px;
+    height: 6vh;                           
+    color: var(--pale-color);
+    background:linear-gradient(45deg, #800080, #fa7087) ;
+}
+.fa-eye{
+    color: var(--but-color);
+}
+.fa-pen-to-square{
+    color:var(--pur-color);
+}
+.fa-download{
+    color: var(--down-color);
+}
+@media(max-width:768px){
+    h2 b{ 
+        font-size: 15px;
+    }
+    .sur h2 b{
+        color: white;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .nav-item .btn{
+        background-color: var(--but-color);
+    }
+
+}
+@media(max-width:480px){
+    h2 b{ 
+        font-size: 15px;
+    }
+    .nav-item .btn{
+        background-color: var(--but-color);
+    }
+    .sur h2 b{
+        color: white;
+        font-size: 25px;
+     margin-top: 12px;
+    }
+}
